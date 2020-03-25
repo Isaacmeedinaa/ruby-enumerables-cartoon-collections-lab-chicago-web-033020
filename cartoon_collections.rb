@@ -34,4 +34,13 @@ def long_planeteer_calls(arr)
 end
 
 def find_the_cheese(arr)
+  if arr.include?("cheddar")
+    return "cheddar"
+  elsif arr.include?("camembert")
+    return "camembert"
+  elsif arr.include?("gouda")
+    return "gouda"
+  else
+    return nil
+  end
 end
