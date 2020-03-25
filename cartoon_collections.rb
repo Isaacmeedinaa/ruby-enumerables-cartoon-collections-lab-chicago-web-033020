@@ -33,7 +33,7 @@ def long_planeteer_calls(arr)
   arr.any?{|item| item.length > 4}
 end
 
-def find_the_cheese(arr)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #if the array includes cheese types (this condition returns true)
     #then return the first string that is a type of cheese
